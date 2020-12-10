@@ -1,4 +1,4 @@
-The zipped file should be copied to the server that will be used to provision the new domain and unzipped to a desired location. Update the variables within the installation script, ADDS-Install.ps1, with the desired domain name and location for ADDS file then run the script in its entirety. Upon reboot, log into the domain controller, update the configuration script, ADDS-Config.ps1, with the desired password settings and run the script in its entirety. The script will prompt for all other information. 
+The pkg-ActiveDirectory-Deploy.zip should be copied to the server that will be used to provision the new domain and unzipped to a desired location. Update the variables within the installation script, ADDS-Install.ps1, with the desired domain name and location for ADDS file then run the script in its entirety. Upon reboot, log into the domain controller, update the configuration script, ADDS-Config.ps1, with the desired password settings and run the script in its entirety. The script will prompt for all other information. 
 
 -------------------------------------------------------------------------------------------------------------------
 
